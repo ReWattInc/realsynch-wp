@@ -42,6 +42,19 @@ wp_head();
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<form  class="navbar-right" role="search">
+							<ul class="nav pull-right">
+								<div class="main-search">
+									<!-- Button trigger modal -->
+									<button type="button" class="btn header-trybutton btn-lg" data-toggle="modal" data-target="#formModal">
+										TRY IT NOW
+									</button>
+									<button type="button" class="btn header-signbutton btn-lg" data-toggle="modal" data-target="#formModal">
+										SIGN IN
+									</button>
+								</div>
+							</ul>
+						</form>
 						<?php
 				            wp_nav_menu( array(
 				                'menu'              => 'primary',

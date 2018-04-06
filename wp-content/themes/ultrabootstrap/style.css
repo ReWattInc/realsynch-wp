@@ -1218,11 +1218,27 @@ section.footers {
     color: #7c7769;
 }
 
+.header-trybutton{
+    background-color: #ebc66e;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.header-signbutton{
+    background-color: #98bfa0;
+    text-align: center;
+    color: #7d7769;
+    font-size: 14px;
+}
+
 .realsynch-home-slider{
+    background-image: url('images/mainslider.png');
     background-color: #5a7c7b;
     color: #f2e5d2!important;
     font-family: TradeGothicLTStd;
     padding: 81px 50px 100px 50px;
+    background-size: 100% 100%;
 }
 
 .realsynch-slider-left{

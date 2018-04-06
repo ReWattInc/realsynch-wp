@@ -236,3 +236,12 @@ require get_template_directory() . '/inc/jetpack.php';
 
 // Register Custom Navigation Walker
 require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
+
+
+/******* Web-to-Lead Salesforce *******/
+
+add_filter( 'salesforce_w2l_api_url', 'my_w2l_api_url', 10, 2 );
+
+function my_w2l_api_url( $url, $form_type ){
+    return 'https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
+}

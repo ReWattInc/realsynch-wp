@@ -135,7 +135,8 @@ get_header('rs'); ?>
 					<h4 class="modal-title" id="myModalLabel">Modal title</h4>
 				</div>
 				<div class="modal-body">
-					<?php gravity_form( 1, false, false); ?>
+					<?php //gravity_form( 1, false, false); ?>
+					<?php var_dump(get_the_content()); ?>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

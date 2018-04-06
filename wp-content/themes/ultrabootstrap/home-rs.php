@@ -136,7 +136,7 @@ get_header('rs'); ?>
 				</div>
 				<div class="modal-body">
 					<?php //gravity_form( 1, false, false); ?>
-					<?php var_dump(get_the_content()); ?>
+					<?php echo do_shortcode('[salesforce form="2"]'); ?>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
